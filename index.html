@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="images/Strong-Passwords.png" type="image/x-icon">
+    <title>Password validation</title>
+</head>
+
+<body>
+    <form>
+
+        <div id="main" class="validation">
+            <h1>Password validation</h1>
+            <div class="input-field">
+
+                <label>Name</label><br />
+                <input type="text" id="input" placeholder="Enter your name">
+                <br />
+                <br />
+                <label>Password</label><br />
+                <input type="password" id="password" placeholder="Enter your password">
+                <button>Submit</button>
+            </div>
+
+
+            <div id="validation">
+                <p id="letter" class="visible">A <b>lowercase</b> letter</p>
+                <p id="uppercase" class="visible">A <b>capital (uppercase)</b> letter</p>
+                <p id="number" class="visible">A <b>number</b></p>
+                <p id="special" class="visible">A <b>special characters</b></p>
+                <p id="length" class="visible">Minimum <b>8 characters</b></p>
+            </div>
+
+        </div>
+    </form>
+</body>
+<script src="JS/app.js"></script>
+
+</html>

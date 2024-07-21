@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.correct{
+    color: green;
+    text-decoration: none;
+    background-color: #ccfccc;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 12px;
+    border-radius: 2px;
+}
+h1{
+    background-color: #eff4f7;
+    text-align: center;  
+    padding: 13px; 
+    width: 442.5px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+label{
+    font-family:cursive;
+    color:  blue;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+.visible{
+    color: red;
+    text-decoration: line-through;
+}
+#validation{
+    display: none;
+    padding: 0px 20px 20px 20px;
+}
+#validation> p{
+    margin: 10px;
+}
+.input-field{
+    margin-top: 20px;
+    padding: 0px 20px 20px 20px;
+}
+.validation{
+    width: 450px;
+    height: 330px;
+    border: 3px solid gainsboro;
+}
+input{
+    width: 400px;
+    height: 50px;
+    font-family: cursive;
+    padding: 10px;
+    color: blue;
+    border: none;
+    outline: none;
+    background-color: #eff4f7;
+    border-radius: 5px;
+}
+input:focus{
+    border-bottom: 2px solid red;
+}
+input::placeholder{
+    color: blue;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 25px;
+    border: 1px solid blue;
+    box-shadow: 0 0 3px blue;
+    margin-top: 20px;
+    width: 98%;
+    height: 40px;
+}
+button:hover{
+    background-color: #2d72da;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
